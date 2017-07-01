@@ -1,0 +1,51 @@
+section {
+    background-color: #fff;
+    border: 1px solid #dedede;
+}
+
+body {
+    background-color: #f6a71e;
+    font-family: 'Lato',sans-serif;
+}
+
+section .content {
+    font-size: 0.938em;
+    color:#666666;
+    padding: 30px;
+}
+
+div .content h3 {
+    font-size: 1.125em;
+    font-weight: 900;
+    color:#d0021b;
+    margin-top:20px;
+    border-bottom: 1px solid #d0021b;
+    padding-bottom: 5px;
+}
+
+div .content h3 i {
+    margin-right: 5px;
+}
+
+div .instituicao h4 {
+    font-size:1.073em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+div .instituicao h5 {
+    font-size: 0.938em;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+section .instituicao small {
+    font-size:0.938em;
+    font-weight: 300;
+  
+}
+
+
+
+
+

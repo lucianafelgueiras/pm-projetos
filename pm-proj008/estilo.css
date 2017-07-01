@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+aside{
+    width: 200px;
+    height: 1030px;
+    background-color: #242536;
+}
+aside h1{
+    background-image: url(images/nucliot-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    height: 60px;
+    align-content: center center;
+    background-color: #151524;
+}
+aside header h1 span{
+    visibility: hidden;
+}
+aside nav ul{
+    margin: 0px;
+    padding: 0px;   
+}
+aside li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+aside li:hover{
+    border-left:4px solid #ffb946;
+    background-color: #151524;
+    cursor:pointer;
+    padding-left: 6px;
+}
+aside li i{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+aside li span{
+    padding-left: 15p;
+}
+aside li small{
+    float: right;
+    padding-right: 9px;
+    color:rgba(255,255,255,0.6);
+}
+aside a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+
+
+
+
+section#principal{
+    width: 100%;
+}
+section#principal header{
+    height: 60px;
+    background-color: #242536;
+    display: flex;  /* flexibiliza posicionamento*/
+    align-items: center;  /* centraliza verticalmente*/
+    justify-content: flex-end; /*envia para o fim do header LD */  
+    padding-right: 15px;
+}
+section#principal .modulo .abas{
+    height: 60px;
+    line-height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    top:-15px; 
+}
+section#principal .modulo .abas li{
+    display: inline-block;
+    margin-right: 40px  
+}
+section#principal .modulo .abas ul li:hover {
+    color:#ffb946;
+}
+section#principal .modulo .abas ul li a{
+    text-transform: uppercase;
+    color:0f0f0f;
+    font-weight: bold;
+    font-size: 14px; 
+    margin-right: 40px
+}
+section#principal .modulo .abas ul li a:hover{
+    color:ffb946;
+    box-shadow: 0px -30px 0px #ffb946 inset;
+}
+
+
+
+
+
+section#principal .modulo .container{
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    top:-17px;
+}
+section#principal .modulo .container .canvas{
+    background-color: #fff;
+    height: 850px;
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+}
+form h2{
+    margin: 0; padding: 0px;
+    margin: 20px 20px 20px -10px;
+    
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+form input, form select{
+    border-radius: 3px;
+    line-height: 40px;
+    height: 40px;
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+    box-sizing: border-box;
+    padding-left: 20x;
+    border: 1px solid #dddddd;
+    color:#c5c5c5;
+}
+::-webkit-input-placeholder{
+    color:#c5c5c5;
+}
+form p{
+    margin-left: -20px;
+    width: 400px;
+    margin-top: -8px;
+    font-size: 14px;
+}
+form li{
+    list-style: none;
+    margin-left: -30px; 
+}
+.check{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    float:left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+form li.ok{
+    background-image: url(ok.png);
+    background-repeat: no-repeat;
+    background-position: top 10px right;
+    width:450px; 
+}
+form small{
+    display: block;
+    width: 400px;
+    height: 40px;
+    
+}
+
+section#principal form a{
+    width: 400px;
+    height: 20px;
+    background-color: #37cb60;
+    color:#fff;
+    padding:10px 180px 10px 180px;
+    position: relative;
+    left:20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-transform: uppercase;
+    
+}

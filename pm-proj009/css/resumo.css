@@ -1,0 +1,81 @@
+
+.resumo {
+    width: 45%;
+    background-color:#ebebeb;
+    padding: 0 10px 10px 10px;
+    border-left: 1px solid #deddde;
+    display: block;
+}
+
+.resumo ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #deddde;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.resumo ul li:last-child {
+    border: none;
+}
+
+.resumo .detalhes {
+    width: 80%;
+    margin-left: 10px;
+}
+
+.resumo .detalhes h3 {
+    color:#777879;
+    font-size: 12px;
+    font-family: 'muliextrabold';
+} 
+
+.resumo .produtos .detalhes small {
+    color:#4a4a4a;
+    font-size: 10px;
+    font-family: 'muliextralight_italic';
+}
+
+.resumo .produtos .detalhes span {
+    color:#9c9c9c;
+    font-size: 10px;
+    font-family: 'muli';
+}
+
+.resumo .produtos li span.valor {
+    color:#777879;
+    font-size: 12px;
+}
+
+.resumo table {
+    width: 100%;
+    margin-top: 65px;
+    border-top: 1px solid #d6d4d7;
+    padding-top: 10px;
+    color:#777879;
+    font-size: 12px;
+}
+
+.resumo table th {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'muliregular';
+}
+
+.resumo td {
+    text-align: right;
+    font-family: 'muliregular';
+    font-size:12px;
+    padding-bottom: 5px;
+    padding-top: 5px;;
+}
+
+.resumo table tfoot * {
+    border-top: 1px solid #d6d4d7;
+    padding-top: 10px;
+    font-family: 'muliextrabold';
+    padding-top: 10px;
+}
+
+

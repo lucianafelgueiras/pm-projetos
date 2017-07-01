@@ -1,0 +1,43 @@
+header{
+    width: 688px;
+    height: 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+ }
+
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+header div h1{
+    font-size: 18px;
+    font-family: 'muliextrabold';
+    color:#5e5f5f;
+}
+
+header div span{
+    font-size: 12px;
+    font-family: 'muliregular';
+    color:#4a4a4a;
+    opacity: 50;
+    margin-left: 20px;
+}
+
+header a{
+    background-image: url(../images/x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 17px;
+    height: 17px;
+    margin-right: 20px;
+}
+
+header a span{
+    visibility: hidden;
+}

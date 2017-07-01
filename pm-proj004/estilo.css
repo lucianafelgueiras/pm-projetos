@@ -1,0 +1,46 @@
+ul{
+	width: 100%;
+    height: 670px;
+    padding: 0px;
+    margin:  0px;
+    font-family: 'oswald',sans-serif;
+    font-weight: 500;
+    
+}
+li{
+    
+    list-style-type: none;
+    background-color: #4a4a4a;
+    margin-bottom: 3px;  
+    text-align: center;
+    padding: 60px 40px 60px 100px;
+    background-image: url('pendente.png');
+    background-repeat: no-repeat;
+    background-position: 40px center;
+}
+li:hover{
+   background-color: #6e6e6e; 
+}
+.concluido{
+    background-color: #27ae60;
+    background-image: url('feito.png');
+    background-repeat: no-repeat;
+    background-position: 40px center;
+}
+.concluido:hover{
+    background-color: #52be7f;
+}
+a{
+    font-family: 'oswald',sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    background-image: url('seta.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+   
+}
