@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Proj011</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+</head>
+
+<body>
+  
+  <div class="container">
+      
+       <div class="card altura">
+          
+           <label class="legenda">ALTURA EM METROS</label>
+           
+           <div id="campo">
+              
+               <input type="number" name="altura" placeholder="1,72" min="1" max="3" step= "0.01"/>
+               
+           </div>
+           
+       </div> 
+       
+       <div class="card peso">
+          
+           <label>PESO EM QUILOS</label>
+           
+           <div class="campo">
+              
+               <input type="number" name="peso" placeholder="75,4" min="1" max="500" step="0.1"/>
+               
+           </div>
+           
+       </div> 
+       
+       <div class="imc">
+          
+          <div class="botao">
+              
+              <button class="button " href="#">IMC</button>
+              
+          </div>
+          
+          <div class="resultado escondido">
+             
+             <div class="valores">
+               
+                <a href="#" class="voltar"><img src="images/seta.png"/></a>
+                
+                <div class='texto'>
+               
+                    <p>35,7</p>
+                    <small>Obesidade Severa</small>
+                
+                </div>
+                 
+             </div>
+              
+          </div>
+        
+</div>
+      
+    </div>
+    
+    <script type="text/javascript" src="javascript.js"></script>
+    
+</body>
+
+</html>
