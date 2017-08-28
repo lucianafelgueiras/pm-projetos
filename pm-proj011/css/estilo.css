@@ -106,5 +106,5 @@
 }
 
 .escondido {
-    display:none;
+    display:none !important;
 }
