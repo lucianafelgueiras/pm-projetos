@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.container {
+    font-weight:300; 
+    color: #000000;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-auto-rows: minmax(133px, auto);
+    border:1px solid #cdcccc;
+   
+}
+
+.numBot {
+    border: 1px solid #cdcccc;
+    background-color: #d8d8d8;
+    text-align: center;
+     font-family: 'Lato',sans-serif;
+    font-size:50px;
+    
+}
+
+.painel {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #202020;
+    text-align: right;
+    color:#fff;  
+    padding: 15px;
+}
+
+.painel input {
+    line-height: 100px;
+    padding:5px;
+    width:315px;
+    background-color:#202020;
+    border: none;
+    outline:0; 
+}
+
+/*REMOVE OS CONTROLES DO INPUT */
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+     cursor:pointer;
+}
+
+
+.figBot {
+    background-color: #4a90e2 !important;
+    background-image: url(../images/groupReal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.figBot span {
+    visibility: hidden;
+}
+
+.converter {
+    background-color:#f98611!important;
+    background-image: url(../images/groupDolar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.convertido {
+    background-color:#27ae60!important;
+    background-image: url(../images/groupDolar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
