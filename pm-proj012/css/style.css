@@ -36,6 +36,7 @@
     padding:5px;
     width:315px;
     background-color:#202020;
+    color:#fff;
     border: none;
     outline:0; 
 }
@@ -44,6 +45,7 @@
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
      cursor:pointer;
+    
 }
 
 
